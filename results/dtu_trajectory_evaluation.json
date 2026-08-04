@@ -1,0 +1,92 @@
+{
+  "dataset": "DTU Roadrunners Autonomous Ecocar Race Track Dataset",
+  "sequence": "05-2020 DTU/2020-05-26.bag",
+  "sensor": "Velodyne VLP-16",
+  "comparison": "KISS-ICP versus recorded vehicle self-odometry",
+  "reference_quality": "vehicle odometry reference; not RTK or survey ground truth",
+  "license": "CC BY-NC-SA 4.0",
+  "matched_samples": 1273,
+  "matched_duration_seconds": 133.28607654571533,
+  "reference_driven_distance_m": 238.0662823021412,
+  "kiss_aligned_path_length_m": 257.14066685020777,
+  "path_length_difference_percent": 8.012215910465796,
+  "ate_mean_m": 11.876511154627195,
+  "ate_median_m": 12.240502847089758,
+  "ate_rmse_m": 12.09287067618084,
+  "ate_p95_m": 14.38052000371732,
+  "ate_max_m": 15.260506460096938,
+  "final_position_difference_m": 15.260506460096938,
+  "rpe_1s_samples": 1258,
+  "rpe_1s_mean_m": 0.3806433544526274,
+  "rpe_1s_rmse_m": 0.7536427627800818,
+  "rpe_1s_p95_m": 2.5116699703963468,
+  "local_20s_segments": [
+    {
+      "segment_start_s": 0.0,
+      "segment_end_s": 20.0,
+      "segment_samples": 188,
+      "local_ate_rmse_m": 0.3046915367115562,
+      "local_ate_p95_m": 0.5898493902006031
+    },
+    {
+      "segment_start_s": 20.0,
+      "segment_end_s": 40.0,
+      "segment_samples": 183,
+      "local_ate_rmse_m": 0.5711389560024213,
+      "local_ate_p95_m": 0.8801311598867869
+    },
+    {
+      "segment_start_s": 40.0,
+      "segment_end_s": 60.0,
+      "segment_samples": 195,
+      "local_ate_rmse_m": 0.5180813044459234,
+      "local_ate_p95_m": 0.961993345558617
+    },
+    {
+      "segment_start_s": 60.0,
+      "segment_end_s": 80.0,
+      "segment_samples": 198,
+      "local_ate_rmse_m": 5.975708985067437,
+      "local_ate_p95_m": 12.616595777453584
+    },
+    {
+      "segment_start_s": 80.0,
+      "segment_end_s": 100.0,
+      "segment_samples": 194,
+      "local_ate_rmse_m": 0.5063842673272194,
+      "local_ate_p95_m": 0.8493102065787201
+    },
+    {
+      "segment_start_s": 100.0,
+      "segment_end_s": 120.0,
+      "segment_samples": 187,
+      "local_ate_rmse_m": 0.730914337534005,
+      "local_ate_p95_m": 1.1338870426931444
+    },
+    {
+      "segment_start_s": 120.0,
+      "segment_end_s": 133.28607654571533,
+      "segment_samples": 128,
+      "local_ate_rmse_m": 0.7894572251997517,
+      "local_ate_p95_m": 2.0856693474026864
+    }
+  ],
+  "worst_local_segment_start_s": 60.0,
+  "worst_local_segment_end_s": 80.0,
+  "worst_local_segment_rmse_m": 5.975708985067437,
+  "alignment_yaw_degrees": -3.4438568416069972,
+  "alignment_rotation_2d": [
+    [
+      0.99819413964649,
+      0.06007045509569715
+    ],
+    [
+      -0.06007045509569739,
+      0.9981941396464898
+    ]
+  ],
+  "alignment_translation_m": [
+    14.518958666677362,
+    2.017984031187442
+  ]
+}

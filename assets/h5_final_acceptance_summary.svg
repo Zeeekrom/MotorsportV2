@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<rect width="100%" height="100%" fill="#eef2f7"/>
+<g font-family="Segoe UI, Microsoft YaHei, sans-serif" fill="#0f172a">
+<text x="750" y="46" text-anchor="middle" font-size="30" font-weight="700">H5 Final Acceptance Summary / H5最终验收汇总</text>
+<text x="750" y="78" text-anchor="middle" font-size="16" fill="#475569">Only selected final baselines are shown; historical failures are in the separate tuning chart / 这里只显示最终基线；历史失败项见独立调参图</text>
+<line x1="115" y1="545" x2="1420" y2="545" stroke="#334155" stroke-width="1.5"/>
+<line x1="115" y1="205.9" x2="1420" y2="205.9" stroke="#f59e0b" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1420" y="196.9" text-anchor="end" font-size="14" fill="#92400e">P95 acceptance threshold 1.5 m / P95验收阈值1.5米</text>
+<rect x="170" y="424.9" width="330" height="120.1" rx="10" fill="#16a34a" fill-opacity="0.9"/>
+<text x="335.0" y="411.9" text-anchor="middle" font-size="20" font-weight="700">0.531 m</text>
+<text x="335.0" y="585" text-anchor="middle" font-size="17" font-weight="700">Deterministic matrix / 确定性矩阵</text>
+<text x="335.0" y="616" text-anchor="middle" font-size="15">16/16 scenarios, 48/48 laps / 16/16场景，48/48圈</text>
+<text x="335.0" y="650" text-anchor="middle" font-size="18" fill="#16a34a" font-weight="700">PASS / 通过</text>
+<rect x="605" y="507.0" width="330" height="38.0" rx="10" fill="#16a34a" fill-opacity="0.9"/>
+<text x="770.0" y="494.0" text-anchor="middle" font-size="20" font-weight="700">0.168 m</text>
+<text x="770.0" y="585" text-anchor="middle" font-size="17" font-weight="700">Live CARLA circle / 实时CARLA圆形</text>
+<text x="770.0" y="616" text-anchor="middle" font-size="15">3/3 laps / 圈</text>
+<text x="770.0" y="650" text-anchor="middle" font-size="18" fill="#16a34a" font-weight="700">PASS / 通过</text>
+<rect x="1040" y="418.9" width="330" height="126.1" rx="10" fill="#16a34a" fill-opacity="0.9"/>
+<text x="1205.0" y="405.9" text-anchor="middle" font-size="20" font-weight="700">0.558 m</text>
+<text x="1205.0" y="585" text-anchor="middle" font-size="17" font-weight="700">Live CARLA oval / 实时CARLA椭圆</text>
+<text x="1205.0" y="616" text-anchor="middle" font-size="15">1/1 laps / 圈</text>
+<text x="1205.0" y="650" text-anchor="middle" font-size="18" fill="#16a34a" font-weight="700">PASS / 通过</text>
+</g>
+</svg>

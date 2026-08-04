@@ -1,0 +1,106 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Name: Ground Grid
+      Plane: XY
+      Plane Cell Count: 40
+      Reference Frame: map
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz_default_plugins/PointCloud2
+      Color: 40; 210; 255
+      Color Transformer: FlatColor
+      Decay Time: 0.3
+      Name: CARLA LiDAR PointCloud2
+      Position Transformer: XYZ
+      Queue Size: 5
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.03
+      Style: Points
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+        Value: /carla/lidar/points
+      Use Fixed Frame: true
+      Use rainbow: true
+      Enabled: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Detected Cones
+      Namespaces:
+        cone_labels: true
+        stable_cones: true
+      Queue Size: 20
+      Topic:
+        Depth: 10
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /detected_cones
+      Enabled: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Accumulated Cone Map
+      Namespaces:
+        local_cone_map: true
+      Queue Size: 20
+      Topic:
+        Depth: 10
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /cone_map
+      Enabled: true
+    - Class: rviz_default_plugins/Path
+      Color: 255; 170; 0
+      Enabled: true
+      Line Style: Lines
+      Line Width: 0.10
+      Name: Planned Centre Path
+      Pose Style: Axes
+      Topic:
+        Depth: 10
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /planned_path
+  Enabled: true
+  Global Options:
+    Background Color: 28; 30; 34
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 28
+      Focal Point:
+        X: 10
+        Y: 0
+        Z: 0
+      Name: Current View
+      Pitch: 0.65
+      Yaw: 1.0
+Window Geometry:
+  Height: 900
+  Width: 1400

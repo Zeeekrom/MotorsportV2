@@ -1,0 +1,31 @@
+{
+  "comparison": "KISS-ICP versus recorded LeGO-LOAM; not absolute ground truth",
+  "matched_samples": 86,
+  "matched_duration_seconds": 10.588876008987427,
+  "mean_position_difference_m": 0.06327001025244643,
+  "median_position_difference_m": 0.052887851904557345,
+  "rmse_position_difference_m": 0.07668707327788149,
+  "max_position_difference_m": 0.17302262589962286,
+  "alignment_rotation": [
+    [
+      -0.8350722429141643,
+      0.5498351646409364,
+      -0.01832050322952121
+    ],
+    [
+      0.07712409595538099,
+      0.14997638200382982,
+      0.9856769037895261
+    ],
+    [
+      0.5447074654687355,
+      0.8216984705871836,
+      -0.16764665370149992
+    ]
+  ],
+  "alignment_translation_m": [
+    0.45546795301551013,
+    -4.732412375241946,
+    11.822766457172227
+  ]
+}

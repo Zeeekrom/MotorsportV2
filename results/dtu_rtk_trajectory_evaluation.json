@@ -1,0 +1,85 @@
+{
+  "dataset": "DTU Roadrunners Autonomous Ecocar Race Track Dataset",
+  "sequence": "03-2020 RRC/2020-03-11-15-39.bag",
+  "sensor": "Velodyne VLP-16 and Swift Piksi Multi RTK GPS",
+  "comparison": "KISS-ICP versus independent GPS/RTK position",
+  "time_sync_method": "GPS measurement time converted to UTC with the 18-second GPS-UTC offset; PC receive latency is excluded",
+  "median_gps_receive_latency_s": 4.033273935317993,
+  "p95_gps_receive_latency_s": 4.173423552513123,
+  "coordinate_method": "WGS-84 geodetic to ECEF to local ENU",
+  "alignment_method": "SE(2) rotation and translation only; no scale",
+  "gps_state_counts": {
+    "Single Point Position / 单点定位": 112,
+    "Float RTK / 浮点RTK": 21,
+    "Fixed RTK / 固定RTK": 390,
+    "SBAS Position / SBAS定位": 1356
+  },
+  "gps_state_percent": {
+    "Single Point Position / 单点定位": 5.960617349654071,
+    "Float RTK / 浮点RTK": 1.1176157530601383,
+    "Fixed RTK / 固定RTK": 20.75572112825971,
+    "SBAS Position / SBAS定位": 72.16604576902608
+  },
+  "all_valid_gps": {
+    "samples": 1879,
+    "duration_s": 194.92929530143738,
+    "reference_path_length_m": 1176.4489571316717,
+    "kiss_path_length_m": 1166.104763797369,
+    "path_length_difference_percent": 0.8792726001069413,
+    "ate_mean_m": 5.188018678615641,
+    "ate_rmse_m": 5.77830959669314,
+    "ate_p95_m": 10.641457604812212,
+    "ate_max_m": 11.827831739929454,
+    "rpe_1s_samples": 1866,
+    "rpe_1s_mean_m": 0.5642820621592638,
+    "rpe_1s_rmse_m": 0.7088628537977576,
+    "rpe_1s_p95_m": 1.321846413760101,
+    "alignment_yaw_degrees": -121.11600024747699,
+    "alignment_translation_m": [
+      -1.2697855107443274,
+      3.9635042336607214
+    ]
+  },
+  "fixed_rtk_window": {
+    "samples": 390,
+    "duration_s": 42.56834673881531,
+    "reference_path_length_m": 311.6323497796632,
+    "kiss_path_length_m": 310.61803929819047,
+    "path_length_difference_percent": 0.3254830514835396,
+    "ate_mean_m": 1.9112833119632984,
+    "ate_rmse_m": 2.1319682279911483,
+    "ate_p95_m": 3.5467879484591096,
+    "ate_max_m": 3.9756642966121194,
+    "rpe_1s_samples": 377,
+    "rpe_1s_mean_m": 0.5614308818751224,
+    "rpe_1s_rmse_m": 0.6599496444381447,
+    "rpe_1s_p95_m": 1.2567776126886465,
+    "alignment_yaw_degrees": -121.75757025383932,
+    "alignment_translation_m": [
+      -1.5853509215934736,
+      -0.7650464210003776
+    ],
+    "start_offset_s": 13.420691013336182,
+    "end_offset_s": 55.98903775215149,
+    "median_horizontal_accuracy_m": 0.019,
+    "max_horizontal_accuracy_m": 0.032
+  },
+  "acceptance_criteria": {
+    "minimum_fixed_samples": 300,
+    "minimum_fixed_duration_s": 30.0,
+    "maximum_fixed_h_accuracy_m": 0.05,
+    "maximum_path_length_difference_percent": 2.0,
+    "maximum_fixed_ate_rmse_m": 5.0,
+    "maximum_fixed_rpe_1s_rmse_m": 1.0
+  },
+  "acceptance_checks": {
+    "minimum_fixed_samples": true,
+    "minimum_fixed_duration_s": true,
+    "maximum_fixed_h_accuracy_m": true,
+    "maximum_path_length_difference_percent": true,
+    "maximum_fixed_ate_rmse_m": true,
+    "maximum_fixed_rpe_1s_rmse_m": true
+  },
+  "acceptance_passed": true,
+  "note": "Fixed RTK metrics are the high-accuracy result; all-GPS metrics mix SPP, Float RTK, Fixed RTK, and SBAS"
+}
