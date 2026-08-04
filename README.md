@@ -47,6 +47,7 @@ tracking documents.
 | `evaluation/` | Reproducible evaluators for each milestone (path integration, closed-loop laps, live CARLA integration, robustness, public/RTK trajectory accuracy) |
 | `results/` | Final metrics for each milestone (JSON) |
 | `assets/` | Pipeline diagram, RViz/CARLA screenshots, trajectory comparison plots |
+| [`MotorSport_Technical_Summary_Report_Bilingual.docx`](MotorSport_Technical_Summary_Report_Bilingual.docx) | Bilingual technical summary report covering completed work, results, and limitations |
 
 ## Results / 结果
 
